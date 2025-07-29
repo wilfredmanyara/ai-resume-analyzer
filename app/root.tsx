@@ -30,6 +30,15 @@ export function Layout({children}: { children: React.ReactNode }) {
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <Meta/>
             <Links/>
+            <meta property="og:title" content="AI Resume Analyzer – Make Your Resume Shine!" />
+            <meta property="og:description" content="Analyze your resume with AI and get cute, actionable feedback!" />
+            <meta property="og:image" content="https://resulyze.wilfredmanyara.com/cover.png" />
+            <meta property="og:url" content="https://resulyze.wilfredmanyara.com/" />
+            <meta property="og:type" content="website" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="AI Resume Analyzer – Make Your Resume Shine!" />
+            <meta name="twitter:description" content="Analyze your resume with AI and get cute, actionable feedback!" />
+            <meta name="twitter:image" content="https://resulyze.wilfredmanyara.com/cover.png" />
         </head>
         <body>
         <script src="https://js.puter.com/v2/"></script>
